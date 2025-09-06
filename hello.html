@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yugandhar resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tharagani, sirisha, viswajyothi, sans-serif;
+    }
+
+    body {
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .resume {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      max-width: 900px;
+      width: 100%;
+      background: white;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    /* Left Panel */
+    .left {
+      background: #1c1f26;
+      color: white;
+      padding: 30px 20px;
+    }
+    .profile-pic {
+      text-align: center;
+    }
+    .profile-pic img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .name {
+      text-align: center;
+    }
+    .name h2 {
+      font-size: 22px;
+      margin-bottom: 5px;
+      color: #fbbf24;
+    }
+    .name p {
+      font-size: 14px;
+      color: #ccc;
+    }
+    .section {
+      margin-top: 30px;
+    }
+    .section h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #fbbf24;
+      border-bottom: 1px solid #fbbf24;
+      padding-bottom: 5px;
+    }
+    .section ul {
+      list-style: none;
+      line-height: 1.8;
+      font-size: 14px;
+    }
+    .contact p,
+    .section ul li {
+      margin-bottom: 8px;
+    }
+    .contact a {
+      color: #fbbf24;
+      text-decoration: none;
+    }
+
+    /* Right Panel */
+    .right {
+      background: #fff;
+      padding: 30px 40px;
+    }
+    .right .block {
+      margin-bottom: 25px;
+    }
+    .right h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #1c1f26;
+      border-left: 4px solid #fbbf24;
+      padding-left: 10px;
+    }
+    .right p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+      color: #444;
+    }
+    .experience-item,
+    .portfolio-item {
+      margin-bottom: 15px;
+    }
+    .experience-item h4 {
+      font-size: 15px;
+      color: #1c1f26;
+    }
+    .experience-item span {
+      display: block;
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <!-- LEFT SIDE -->
+    <div class="left">
+      <div class="profile-pic">
+        <img src="https://via.placeholder.com/120" alt="Yugandhar">
+      </div>
+      <div class="name">
+        <h2>Yugandhar</h2>
+      </div>
+
+      <div class="section contact">
+        <h3>Contact</h3>
+        <p>Email: <a href="yugandhar@email.com">yugandhar@email.com</a></p>
+        <p>Phone: +91 7702707214</p>
+        <p>Website: <a href="http://resume.com" target="_blank">http://yugandhar.com</a></p>
+      </div>
+
+      <div class="section">
+        <h3>Skills</h3>
+        <ul>
+          <li>Web designer</li>
+          <li>Java</li>
+          <li>Python</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Interests</h3>
+        <ul>
+          <li>Learning new Skills</li>
+          <li>Art Designing</li>
+          <li>Problem Solving Skills</li>
+          <li>Playing Chess</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+      <div class="block">
+        <h3>Profile</h3>
+        <p>Creative web designer with 1+ years' experience in impactful Designing skills by using CSS.</p>
+      </div>
+
+      <div class="block">
+        <h3>Experience</h3>
+        <div class="experience-item">
+          <h4>Web Designer</h4>
+          <span>Brightline Agency | New Delhi | June 2025– Present</span>
+          <p>Boosted engagement by 30% through brand campaigns and created identity packages for social media and print.</p>
+        </div>
+        <div class="experience-item">
+          <h4>Web Designer</h4>
+          <span>Blue Horizon Media | New Delhi| March 2019 – May 2022</span>
+          <p>Boosted retention by 25% and developed eco-friendly packaging while mentoring designers.</p>
+        </div>
+      </div>
+
+      <div class="block">
+        <h3>Education</h3>
+        <p><strong>Web Design</strong><br>
+        Parsons School of Design | New Delhi<br>
+        Graduated: 2017</p>
+      </div>
+
+      <div class="block">
+        <h3>Portfolio</h3>
+        <div class="portfolio-item">
+          <p><strong>Social Media Campaign</strong> for Eco Wave Brand: Transformed their social media presence with cohesive visuals and engaging graphics.</p>
+        </div>
+        <div class="portfolio-item">
+          <p><strong>Event Branding</strong> for the annual NYC Art Expo: Developed event branding from logo to banners, enhancing attendee experience.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
